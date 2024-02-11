@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class StudentController {
 
-    private String eu;
+   
     
     //preciso usar meu USECASE
     @Autowired
