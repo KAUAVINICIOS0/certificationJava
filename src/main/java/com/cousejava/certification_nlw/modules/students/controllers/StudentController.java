@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class StudentController {
 
+   
+    
     //preciso usar meu USECASE
     @Autowired
     private  VerifyIfHasCertificationUseCase verifyIfHasCertificationUseCase; 
@@ -31,5 +33,10 @@ public class StudentController {
         }
         return "User can take the test";
     }
+
+
+    // teste commit
+
+   
 
 }
